@@ -19,7 +19,7 @@
 
 
 # pragma mark - Public Methods
-- (instancetype) initBoxWithWidth:(float)width :(float)height :(float)length;
+- (instancetype) initBoxWithWidth:(float)width initBoxWithHeight:(float)height initBoxWithLength:(float)length;
 -(float)calculateVolume;
 -(int)numberBoxFit:(Box *)someBox;
 

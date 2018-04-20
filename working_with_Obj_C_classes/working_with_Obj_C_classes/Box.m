@@ -12,7 +12,7 @@
 @implementation Box
 
 # pragma mark - Constructor
-- (instancetype) initBoxWithWidth:(float)width :(float)height :(float)length{
+- (instancetype) initBoxWithWidth:(float)width initBoxWithHeight:(float)height initBoxWithLength:(float)length{
     self = [super init];
     if (self) {
         self.width = width;

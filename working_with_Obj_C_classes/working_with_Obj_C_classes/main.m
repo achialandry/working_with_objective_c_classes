@@ -12,9 +12,9 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // Create an object Box
-        Box *box = [[Box alloc] initBoxWithWidth:10.3 :10.9 :19.3];
+        Box *box = [[Box alloc] initBoxWithWidth:10.3 initBoxWithHeight:10.9 initBoxWithLength:19.3];
         
-        Box *boxTwo = [[Box alloc] initBoxWithWidth:3.3 :3.7 :13.0];
+        Box *boxTwo = [[Box alloc] initBoxWithWidth:3.3 initBoxWithHeight:3.7 initBoxWithLength:13.0];
         
         NSLog(@"Volume is: %.f", [box calculateVolume]);
         NSLog(@"Number of box that fit is: %d", [box numberBoxFit:boxTwo]);
